@@ -1,11 +1,17 @@
 {
   "name": "sussy-ws",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["websocket", "util", "typescript", "nodejs", "event-driven"],
+  "keywords": [
+    "websocket",
+    "util",
+    "typescript",
+    "nodejs",
+    "event-driven"
+  ],
   "author": "roteKlaue",
   "license": "GPL-3.0",
   "type": "commonjs",
@@ -17,5 +23,14 @@
   "devDependencies": {
     "@types/node": "^25.0.3",
     "@types/ws": "^8.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roteKlaue/sussy-ws.git"
+  },
+  "types": "./build/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/roteKlaue/sussy-ws/issues"
+  },
+  "homepage": "https://github.com/roteKlaue/sussy-ws#readme"
 }
