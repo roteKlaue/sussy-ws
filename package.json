@@ -7,7 +7,7 @@
   },
   "keywords": ["websocket", "util", "typescript", "nodejs", "event-driven"],
   "author": "roteKlaue",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "type": "commonjs",
   "description": "Type-safe WebSocket server framework with heartbeat support, structured message handling, and optional room-based client management.",
   "dependencies": {
