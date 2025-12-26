@@ -1,0 +1,21 @@
+{
+  "name": "sussy-ws",
+  "version": "1.0.0",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["websocket", "util", "typescript", "nodejs", "event-driven"],
+  "author": "roteKlaue",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "Type-safe WebSocket server framework with heartbeat support, structured message handling, and optional room-based client management.",
+  "dependencies": {
+    "sussy-util": "^13.0.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "@types/ws": "^8.18.1"
+  }
+}
